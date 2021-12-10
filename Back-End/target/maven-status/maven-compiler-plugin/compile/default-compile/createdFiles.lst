@@ -1,0 +1,16 @@
+com\example\demo\repositories\UsuarioRepository.class
+com\example\demo\DemoApplication.class
+com\example\demo\controllers\OrderController.class
+com\example\demo\services\UsuarioServicio.class
+com\example\demo\repositories\OrderRepository.class
+com\example\demo\models\Order.class
+com\example\demo\services\OrderService.class
+com\example\demo\controllers\UsuarioController.class
+com\example\demo\repositories\CRUD\IOrderCrudRepository.class
+com\example\demo\services\LaptopService.class
+com\example\demo\controllers\LaptopController.class
+com\example\demo\models\Laptop.class
+com\example\demo\repositories\CRUD\ILaptopCrudRepository.class
+com\example\demo\repositories\CRUD\IUsuarioCrudRepository.class
+com\example\demo\repositories\LaptopRepository.class
+com\example\demo\models\Usuario.class

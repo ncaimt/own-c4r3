@@ -1,0 +1,182 @@
+body {
+  background-color: #00a7e1;
+
+  /* equivalente en hexa rgba(0, 167, 225, 1) */
+}
+
+h1 {
+  text-align: center;
+  margin: 20px auto;
+}
+img {
+  height: 150px;
+  margin: 10px;
+}
+
+#encabezado {
+  background-color: #f1f1f1;
+  width: 100%;
+  height: 160px;
+  margin-bottom: 40px;
+}
+
+.secciones {
+  border: 2px solid white;
+  width: 90%;
+  text-align: center;
+  margin: 20px auto 50px auto;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+h2 {
+  color: #f1f1f1;
+}
+
+/* para el div de iniciar sesion */
+.secciones form input {
+  margin: 5px auto 5px auto;
+}
+
+.secciones form label {
+  /* right: -50px; */
+  color: #f1f1f1;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+a {
+  color: blue;
+}
+
+input {
+  display: block;
+  margin: 10px;
+  font-size: 18px;
+}
+
+.botones {
+  font-weight: bold;
+  width: 120px;
+  height: 40px;
+  background-color: #00171f;
+  color: #00a7e1;
+  border-radius: 5px;
+}
+
+/* botonoes dentro de la tabla */
+button {
+  margin: 20px auto;
+}
+
+.boxDatos {
+  /* background-color: blue; */
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+
+.boxDatos label {
+  display: inline-block;
+  /* background-color: fuchsia; */
+  width: 30%;
+}
+
+.boxDatos div {
+  /* background-color: yellow; */
+  width: 30%;
+  /* height: 20px; */
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  word-wrap: break-word;
+  background-color: #f1f1f1;
+}
+
+.botonEliminar {
+  background-color: #d96465;
+}
+
+.botonEditar {
+  background-color: #00a7e1;
+}
+
+.alertMes {
+  /* background-color: red; */
+  width: 30%;
+}
+
+.container-title-table {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-title-table div {
+  margin: 5px;
+}
+
+#ventanaUpdate {
+  background-color: #003459;
+
+  width: 50%;
+  left: 30%;
+  top: 1%;
+  border-radius: 10px;
+  position: fixed;
+  visibility: hidden;
+  color: white;
+}
+
+#ventanaUpdate #botonArrastrar.active {
+  cursor: move;
+  user-select: none;
+}
+
+#butCerrarUpdate,
+#butCerrarUpdateLaptop {
+  position: absolute;
+  right: 2%;
+  top: 1%;
+  font-size: 30px;
+}
+
+#botonArrastrar,
+#botonArrastrarLaptop {
+  font-size: 30px;
+  background-color: #00171f;
+  width: 50%;
+  margin: auto;
+  border-radius: 5px;
+}
+
+#botonArrastrarLaptopRight {
+  font-size: 30px;
+  background-color: #00171f;
+  width: 200%;
+  /* margin: auto; */
+
+  border-radius: 5px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+#ventanaUpdateLaptop {
+  background-color: #003459;
+
+  width: 50%;
+  left: 30%;
+  top: 1%;
+  border-radius: 10px;
+  position: fixed;
+  visibility: hidden;
+  color: white;
+}
